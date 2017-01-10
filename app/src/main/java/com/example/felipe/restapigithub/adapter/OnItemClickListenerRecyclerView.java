@@ -3,7 +3,7 @@ package com.example.felipe.restapigithub.adapter;
 import com.example.felipe.restapigithub.model.Item;
 
 /**
- * Created by Felipe on 10/01/2017.
+ * Interface para implementação do click para a RecyclerView da MainActivity para gerar Intent para os PullRequest.
  */
 
 public interface OnItemClickListenerRecyclerView {

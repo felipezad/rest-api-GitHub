@@ -15,8 +15,12 @@ import com.example.felipe.restapigithub.adapter.RepositoriesAdapterRecyclerView;
 import com.example.felipe.restapigithub.model.Item;
 import com.example.felipe.restapigithub.model.Repository;
 import com.example.felipe.restapigithub.rest.Retro;
-import com.google.gson.Gson;
 
+/**
+ *  Atividade principal com chamada dos repositorios
+ *  É importante lembrar que ao a recyclerView é uma otimização da ListView, ela se comporta renderizando apenas a quantidade de itens presentes na tela
+ *  Deste modo ela cria uma paginação para que em vez de renderizar toda a lista apenas renderiza os itens exibidos (vai se reciclando, apaga os que somem e renderiza os novos)
+ */
 public class MainActivity extends AppCompatActivity {
     Context context = this;
     Screen screen;

@@ -11,6 +11,9 @@ import com.example.felipe.restapigithub.R;
 import com.example.felipe.restapigithub.adapter.PullRequestAdapterRecyclerView;
 import com.example.felipe.restapigithub.rest.Retro;
 
+/**
+ * Atividade com as listas de cada pull request , sendo o card formado por: Login, Url do Pull e o Body do Pull Request
+ */
 public class PullRequestActivity extends AppCompatActivity {
     Context context = this;
     Screen screen;

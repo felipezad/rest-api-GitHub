@@ -11,7 +11,7 @@ import com.example.felipe.restapigithub.model.Item;
 import com.example.felipe.restapigithub.model.Repository;
 
 /**
- * Created by Felipe on 09/01/2017.
+ *  Adapter para preencher os dados da view ao receber os dados de todos os Repositorios.
  */
 
 public class RepositoriesAdapterRecyclerView extends RecyclerView.Adapter<RepositoriesAdapterRecyclerView.RowViewHolder> {

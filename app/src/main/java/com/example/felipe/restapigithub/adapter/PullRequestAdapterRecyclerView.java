@@ -12,7 +12,7 @@ import com.example.felipe.restapigithub.model.PullRequest;
 import java.util.List;
 
 /**
- * Created by Felipe on 10/01/2017.
+ * Adapter para preencher os dados da view ao receber os dados de todos os pullRequests.
  */
 
 public class PullRequestAdapterRecyclerView extends RecyclerView.Adapter<PullRequestAdapterRecyclerView.RowViewHolder> {

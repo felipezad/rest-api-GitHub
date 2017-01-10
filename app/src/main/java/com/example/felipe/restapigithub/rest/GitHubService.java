@@ -10,7 +10,8 @@ import retrofit2.http.GET;
 import retrofit2.http.Path;
 
 /**
- * Created by Felipe on 09/01/2017.
+ * Utilizando o RetroFit essa interface é convertida num Client Http
+ * Deste modo organizando as requisições de uma maneira clara e legivel.
  */
 
 public interface GitHubService {

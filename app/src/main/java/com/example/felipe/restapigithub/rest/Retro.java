@@ -16,7 +16,8 @@ import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
 /**
- * Created by Felipe on 09/01/2017.
+ * Classe que utiliza a lib Retrofit para realizar ações HTTP
+ * Essa classe é a responsavel pela requisições REST
  */
 
 public class Retro {
@@ -29,7 +30,6 @@ public class Retro {
         this.retrofit = new Retrofit.Builder()
                 .baseUrl(BASE_URL)
                 .addConverterFactory(GsonConverterFactory.create())
-
                 .build();
         this.context = context;
     }

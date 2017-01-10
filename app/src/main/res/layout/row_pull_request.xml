@@ -20,7 +20,8 @@
             android:layout_alignParentTop="true"
             android:layout_marginStart="23dp"
             android:layout_marginTop="17dp"
-            android:text="TextView" />
+            android:text="TextView"
+            android:drawableLeft="@drawable/ic_stat_name"/>
 
         <TextView
             android:id="@+id/url"
